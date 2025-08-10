@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "react-native-svg": "^15.11.2"
@@ -32,6 +33,7 @@
   "license": "ISC",
   "homepage": "https://github.com/lucassaid/react-native-cool-speedometer#readme",
   "devDependencies": {
+    "typescript": "^5.5.4",
     "@types/react": "^17.0.43",
     "@types/react-native": "^0.67.3"
   }
